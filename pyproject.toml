@@ -1,6 +1,6 @@
 [project]
 name = "skillaroo"
-version = "0.1.0"
+version = "2025.0dev"
 requires-python = ">=3.13"
 dependencies = [
     "colorama>=0.4.6",
