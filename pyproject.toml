@@ -1,0 +1,9 @@
+[project]
+name = "skillaroo"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "colorama>=0.4.6",
+    "dotenv>=0.9.9",
+    "numpy>=2.3.2",
+]
