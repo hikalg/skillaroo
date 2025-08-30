@@ -14,6 +14,7 @@ class Player:
     # Class constructor
     # Required args: name
     def __init__(self, name : str, rating = None) -> None:
+        
         self.name = name
         # If rating is not provided, defaults to 1000
         self.rating = rating or int(os.getenv("DEFAULT_RATING") or 1000)
